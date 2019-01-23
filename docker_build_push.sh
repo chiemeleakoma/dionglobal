@@ -7,6 +7,6 @@ docker build -t duoarc/dionglobal .
 sleep 5
 
 # push image to docker hub
-docker push duoarc duoarc/dionglobal:latest
+docker push duoarc/dionglobal:latest
 
 
