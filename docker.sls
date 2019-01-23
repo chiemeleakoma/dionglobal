@@ -13,7 +13,3 @@ docker:
     - require:
       - pkg: docker-ce
 
-run_script.sh:
-  cmd.script:
-  - name: docker_build_push.sh
-  - source: salt://docker_build_push.sh
